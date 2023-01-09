@@ -14,7 +14,7 @@ const App = (props) => {
 
   const contactHandler = (contact) => {
     console.log(contact);
-    setContacts([...contacts, { id: uuid(), ...contact }]);
+    setContacts([...contacts, { id: uuid(), ...contact }]); //for id
   };
 
   const removeContactHandler = (id) => {
